@@ -2,9 +2,101 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Text Webpage</title>
+        <meta name="viewport" content="width=600">
+        <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-(16).png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon.png"/>
+
+        <title>Hotdawg!</title>
+
+        <style>
+
+            p {
+                font-family: "Lato", serif;
+                font-weight: lighter;
+                font-style: italic;
+                font-size: 1.2rem;
+                line-height: 1.2em;
+                background: #fff;
+                color: rgb(0, 0, 0);
+            }
+
+            li {
+                font-family: "Lato", serif;
+                font-weight: lighter;
+                font-style: italic;
+                font-size: 1.2rem;
+                line-height: 1.2em;
+                background: #fff;
+                color: rgb(0, 0, 0);
+            }
+
+            #all-box {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                /* padding: 40px;
+                border: 1px solid rgb(255, 0, 0); */
+                width: 400px;
+                
+            }
+
+            a {
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                color: rgb(248, 28, 1);
+                font-size: 1.05rem;
+
+                text-decoration: none;
+
+                transition-duration: 250ms;
+                transition-property: border;
+                transition-timing-function: linear;
+                border-bottom: 0.15rem solid transparent;
+
+            }
+
+            a:hover{
+                border-color: rgb(248, 28, 1);
+            }
+
+            .social {
+                padding-left: 60px;
+
+            }
+
+            .center {
+                text-align: center;
+                display: block;
+                transform: translate(-50px, 0);
+
+            }
+
+        </style>
+
     </head>
+
     <body>
-        <h1>test webpage</h1>
+        
+        <div id="all-box">
+
+            <img src="Images/logo.png" alt="Hotdawg" height="500" class="center"/>
+
+            <p>A videogame company from Queensland, Australia.</p>
+        
+
+            <p>We made these games: </p>
+            <ul>
+                <li><a>Acid Bath</a>, a fast-paced bubble popping adventure game avaliable now on mobile.</li>
+                <li><a>Starship Down</a>, a hyper casual sci-fi scavanger game currently in development for mobile.</li>
+            </ul>
+
+            <p><span class="social">Email: </span><a href="mailto:hellowhotdawg@gmail.com">hellohotdawg@gmail.com</a></p>
+
+        </div>
+
+
     </body>
+
 </html>
